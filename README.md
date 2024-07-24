@@ -1,5 +1,75 @@
-## Next.js App Router Course - Starter
+# Order Management Dashboard
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Учебный проект: дашборд для управления заказами, разработанный с использованием Next.js и современных веб-технологий.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Технический стек
+
+- Next.js 14.0.2
+- React 18.2.0
+- TypeScript 5.2.2
+- Tailwind CSS 3.3.3
+- NextAuth.js 5.0.0-beta.16
+- Vercel Postgres
+- Zod 3.22.2
+
+## Основные функции
+
+1. Аутентификация пользователей
+2. Отображение списка заказов
+3. Управление статусами заказов
+4. Поиск и фильтрация заказов
+5. Аналитика и отчеты
+
+## Архитектура приложения
+
+### Основные компоненты
+
+- Dashboard
+- OrderList
+- OrderDetails
+- UserProfile
+- Analytics
+
+### Маршрутизация
+
+Реализована с помощью встроенного роутера Next.js для оптимизированной навигации и серверного рендеринга.
+
+### Аутентификация
+
+Используется NextAuth.js для безопасной аутентификации пользователей.
+
+### База данных
+
+Интеграция с Vercel Postgres для хранения данных о заказах и пользователях.
+
+## Особенности реализации
+
+- Server-Side Rendering (SSR) и Static Site Generation (SSG)
+- API Routes для серверной логики
+- Типизация с использованием TypeScript
+- Стилизация с помощью Tailwind CSS
+- Валидация данных с использованием Zod
+- Оптимизация производительности с use-debounce
+
+## UI компоненты
+
+Использование Heroicons для иконок и собственных компонентов на основе Tailwind CSS.
+
+## Разработка и тестирование
+
+- ESLint для статического анализа кода
+- Prettier для форматирования кода
+- Vercel Style Guide для поддержания согласованности кодовой базы
+
+## Требования к окружению
+
+- Node.js v14+
+- npm v6+ 
+
+## Установка и запуск
+
+1. Клонируйте репозиторий
+2. Установите зависимости: `npm install` 
+3. Настройте переменные окружения (см. `.env.example`)
+4. Запустите приложение в режиме разработки: `npm run dev` 
+
